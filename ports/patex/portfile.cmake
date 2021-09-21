@@ -14,7 +14,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/patex
     REF 0.0.4
-    SHA512 d7ac5e1a055ba00715b42366a0ec90e36ccc67379c0f3a256d155f0495fb1eccc1f62889ae3b845ccda03d8144f6d2dbf313adbfa74fc67d9e92d7344793229d
+    SHA512 f71c027137d8a8d7be99ec8fc30e6f047a1fbfdfa48cc3ccea58bf09fc0df84f2981257dd80e8ac1eb656e6faaff0145798f1066a3a36e20678bba201302242c
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 #    [GITHUB_HOST <https://github.com>]
