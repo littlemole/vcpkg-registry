@@ -1,1 +1,0 @@
-{"name": "patex", "version-string": "d3a77e19db99ffb3d6d6a02aff5cc9638fca74ba", "port-version": 0, "homepage": "https://github.com/littlemole/patex", "description": "expat c++ wrapper", "dependencies": ["expat", "gtest"]}
