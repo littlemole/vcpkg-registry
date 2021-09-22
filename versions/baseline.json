@@ -1,1 +1,8 @@
-{"default": {"beicode": {"baseline": "1.0.0", "port-version": 0}, "beison": {"baseline": "1.0.0", "port-version": 0}, "metacpp": {"baseline": "0.0.4", "port-version": 0}, "patex": {"baseline": "0.0.5", "port-version": 0, "baselne": "93786b1bd90b79cce36b92b72b78e0817dd640b2"}}}
+{
+  "default": {
+    "beicode": { "baseline": "1.0.0", "port-version": 0 },
+    "beison":  { "baseline": "1.0.0", "port-version": 0 },
+    "metacpp": { "baseline": "0.0.4", "port-version": 0 },
+    "patex":   { "baseline": "0.0.5", "port-version": 0 }
+  }
+}
