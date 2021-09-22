@@ -16,8 +16,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/mtl
-    REF 84bbb753bfc2b821a40ec8aecfe9c3358c56a22c
-    SHA512 f3781cbb4e9e190df38c3fe7fa80ba69bf6f9dbafb158e0426dd4604f2f1ba794450679005a38d0f9f1dad0696e2f22b8b086b2d7d08a0f99bb4fd3b0f7ed5d8
+    REF e3ae5e24364f4140733e6045a0a752334351191a
+    SHA512 86b85eccd281fc1eecbe90f97afcc88b3ec51e058d985b74e13cd73ae3c0dbbccdbc07458ba56f04f228b4ed1d84f97abb3a3c698bb59ade96b8c4609a4dbd13
     HEAD_REF main
 )
 
