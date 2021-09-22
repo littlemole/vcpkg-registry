@@ -13,9 +13,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/patex
-    REF 0.0.5
-    SHA512 faf40e894ae4c838c7e866dccaf0e811743cc171d7e7511c65485d9f5a352713c44decba2e77eebdb699fdbbc0dd29f63878d3e483edee5e307f6af49b7d1014
-    HEAD_REF main
+	REF c8fb43d8d0cd16ba4762d332d79801de2cdbb605
+	SHA512 f3781cbb4e9e190df38c3fe7fa80ba69bf6f9dbafb158e0426dd4604f2f1ba794450679005a38d0f9f1dad0696e2f22b8b086b2d7d08a0f99bb4fd3b0f7ed5d8
+    HEAD_	REF c8fb43d8d0cd16ba4762d332d79801de2cdbb605
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 #    [GITHUB_HOST <https://github.com>]
 #    [AUTHORIZATION_TOKEN <${SECRET_FROM_FILE}>]
@@ -27,13 +27,13 @@ vcpkg_from_github(
 #vcpkg_download_distfile(ARCHIVE
 #    URLS "https://github.com/littlemole/patex/archive/0.0.3.tar.gz"
 #    FILENAME "patex-0.0.3.tgz"
-#    SHA512 d7ac5e1a055ba00715b42366a0ec90e36ccc67379c0f3a256d155f0495fb1eccc1f62889ae3b845ccda03d8144f6d2dbf313adbfa74fc67d9e92d7344793229d
+#	SHA512 f3781cbb4e9e190df38c3fe7fa80ba69bf6f9dbafb158e0426dd4604f2f1ba794450679005a38d0f9f1dad0696e2f22b8b086b2d7d08a0f99bb4fd3b0f7ed5d8
 #)
 #vcpkg_extract_source_archive(${ARCHIVE})
 
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
-    PREFER_NINJA # Disable this option if project cannot be built with Ninja
+    P	REF c8fb43d8d0cd16ba4762d332d79801de2cdbb605
     # OPTIONS -DUSE_THIS_IN_ALL_BUILDS=1 -DUSE_THIS_TOO=2
     # OPTIONS_RELEASE -DOPTIMIZE=1
     # OPTIONS_DEBUG -DDEBUGGABLE=1
