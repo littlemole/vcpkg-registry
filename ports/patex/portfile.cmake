@@ -17,19 +17,8 @@ vcpkg_from_github(
     SHA512 e37e9ede73b9bba0d993c800a019fdc10a0f91bfdad09315fae69428abdc4ea96f6842df8f56548953d219d01847ba2214df49445a1338dad70860287e7e3d4b
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
-#    [GITHUB_HOST <https://github.com>]
-#    [AUTHORIZATION_TOKEN <${SECRET_FROM_FILE}>]
-#    [FILE_DISAMBIGUATOR <N>]
 )
 
-#include(vcpkg_common_functions)
-#set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/patex-0.0.3)
-#vcpkg_download_distfile(ARCHIVE
-#    URLS "https://github.com/littlemole/patex/archive/0.0.3.tar.gz"
-#    FILENAME "patex-0.0.3.tgz"
-#    SHA512 e37e9ede73b9bba0d993c800a019fdc10a0f91bfdad09315fae69428abdc4ea96f6842df8f56548953d219d01847ba2214df49445a1338dad70860287e7e3d4b
-#)
-#vcpkg_extract_source_archive(${ARCHIVE})
 
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
