@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/patex
-    REF 5b3e07d2c07186c49843d406102bfc4213817086
-    SHA512 c8738e7f5bc77fe0d5fe68030201725de812249ccf7c8bdea01e597352d65c84b6238c9a17afde7eba88785834f6e44490c69dfd1b4029869f6a5ca06a82159e
+    REF f722137f787c665e965dfca97825d1a19dcf6850
+    SHA512 e37e9ede73b9bba0d993c800a019fdc10a0f91bfdad09315fae69428abdc4ea96f6842df8f56548953d219d01847ba2214df49445a1338dad70860287e7e3d4b
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 #    [GITHUB_HOST <https://github.com>]
@@ -27,7 +27,7 @@ vcpkg_from_github(
 #vcpkg_download_distfile(ARCHIVE
 #    URLS "https://github.com/littlemole/patex/archive/0.0.3.tar.gz"
 #    FILENAME "patex-0.0.3.tgz"
-#    SHA512 c8738e7f5bc77fe0d5fe68030201725de812249ccf7c8bdea01e597352d65c84b6238c9a17afde7eba88785834f6e44490c69dfd1b4029869f6a5ca06a82159e
+#    SHA512 e37e9ede73b9bba0d993c800a019fdc10a0f91bfdad09315fae69428abdc4ea96f6842df8f56548953d219d01847ba2214df49445a1338dad70860287e7e3d4b
 #)
 #vcpkg_extract_source_archive(${ARCHIVE})
 
