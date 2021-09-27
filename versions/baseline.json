@@ -19,6 +19,10 @@
         "mtl": {
             "baseline": "c81e132399661b97be6b536ed0eb6aee9ef7d7ac",
             "port-version": 0
+        },
+        "webview2": {
+            "baseline": "1.0.961.33",
+            "port-version": 0
         }
     }
 }
