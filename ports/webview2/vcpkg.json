@@ -1,0 +1,9 @@
+{
+    "name": "webview2",
+    "version-string": "1.0.961.33",
+    "port-version": 0,
+    "homepage": "https://www.nuget.org/api/v2/package/Microsoft.Web.WebView2/",
+    "description": "webview2 SDK",
+    "dependencies": [
+    ]
+}
