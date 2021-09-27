@@ -55,6 +55,10 @@
         {
             "version-string": "3725a9387851cf4997d64b9bc8ff971a4eef495a",
             "git-tree": "e0efb2200ca082f2112d1d76280dd830629799e1"
+        },
+        {
+            "version-string": "5b82768d3722557f15b1080c5c21cc692fad08fe",
+            "git-tree": "dc5db4e4fd6567be13feb6c2f28f47f6edfb266c"
         }
     ]
 }
