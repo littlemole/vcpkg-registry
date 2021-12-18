@@ -67,6 +67,10 @@
         {
             "version-string": "baf878855e79cad1041299c0142743ebbbfbbc9b",
             "git-tree": "ce495a5c6882eb31f1adef36664e513980cffec4"
+        },
+        {
+            "version-string": "b6a30ef09c6299707c6ed8d65425ee441d80112c",
+            "git-tree": "a00fdaf17d23333c61136359caf1de52bbaa923e"
         }
     ]
 }
