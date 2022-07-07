@@ -31,7 +31,6 @@ vcpkg_extract_source_archive(
 set(INC_PATH "${SOURCE_PATH}")
 
 Message("###########################")
-Message(${LIB_PATH})
 Message(${INC_PATH})
 Message("###########################")
 
