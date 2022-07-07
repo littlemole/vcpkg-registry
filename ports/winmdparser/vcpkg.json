@@ -1,0 +1,9 @@
+{
+    "name": "winmdparser",
+    "version": "1.0.210629.2",
+    "port-version": 0,
+    "homepage": "https://www.nuget.org/packages/Microsoft.Windows.WinMD//",
+    "description": "c++ winmd parser",
+    "dependencies": [
+    ]
+}
