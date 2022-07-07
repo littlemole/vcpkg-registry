@@ -14,7 +14,7 @@ set(VCPKG_POLICY_SKIP_ARCHITECTURE_CHECK enabled)
 
 vcpkg_download_distfile(
     ARCHIVE
-	URLS https://www.nuget.org/api/v2/package/Microsoft.Windows.WinMD/1.0.210629.2
+	URLS https://globalcdn.nuget.org/packages/microsoft.windows.winmd.1.0.210629.2.nupkg
     FILENAME winmdparser.zip
     SHA512 3221a94d9d4c66b7f2ec56e59f84fde3d27d7a6962064f2f56a169a2b09aefd018219525e2099500d4c2c8051c8c2977
 )
