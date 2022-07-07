@@ -23,6 +23,10 @@
         "webview2": {
             "baseline": "1.0.961.33",
             "port-version": 0
+        },
+        "winmdparser": {
+            "baseline": "1.0.210629.2",
+            "port-version": 0
         }
     }
 }
