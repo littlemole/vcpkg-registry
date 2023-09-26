@@ -10,13 +10,14 @@
 #   VCPKG_TARGET_ARCHITECTURE = target architecture (x64, x86, arm)
 #
 
-set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/metacpp-0.0.4)
-vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/littlemole/metacpp/archive/0.0.4.tar.gz"
-    FILENAME "metacpp-0.0.4.tgz"
-    SHA512 fb57c2ba35358458e8024cee8b1a0c4f104b2457b2b57065695463503a949edcea13eb2ac883c5f39fe3ba1af5405f6afb6c71e9b3890cea11836fd2f8deabe8
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+    REPO littlemole/metacpp
+    REF a7e62281b0dba75844c333998807b4e5d71fd650
+    SHA512 dcf6a05867e07bc83e163b8a2ee8c62bed09a40a0b3f98773a411a72c99f5a49f8e1db11375e6d590ed2dae1dcd07de3a961b4e689a2a5c46bdc9a813f4d6366
+    HEAD_REF main
+#    [PATCHES <patch1.patch> <patch2.patch>...]
 )
-vcpkg_extract_source_archive(${ARCHIVE})
 
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}

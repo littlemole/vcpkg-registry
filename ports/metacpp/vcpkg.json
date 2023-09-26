@@ -1,0 +1,13 @@
+{
+    "name": "metacpp",
+    "version": "0.0.5",
+    "port-version": 0,
+    "homepage": "https://github.com/littlemole/metacpp",
+    "description": "metadata for cpp",
+    "dependencies": [
+        "gtest",
+        "expat",
+        "patex",
+        "jsoncpp"
+    ]
+}
