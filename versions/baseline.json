@@ -24,6 +24,10 @@
             "baseline": "ba1ea176a5909e9cf86331bdff865b1cfecbdc4c",
             "port-version": 0
         },
+        "mustache": {
+            "baseline": "4.1",
+            "port-version": 0
+        },
         "webview2": {
             "baseline": "1.0.961.33",
             "port-version": 0
