@@ -1,0 +1,10 @@
+{
+    "name": "diycpp",
+    "version": "0.0.12",
+    "port-version": 0,
+    "homepage": "https://github.com/littlemole/diy",
+    "description": "dependency injection for cpp",
+    "dependencies": [
+        "gtest"
+    ]
+}
