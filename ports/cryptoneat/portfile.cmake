@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/cryptoneat
-    REF 6aaeab84e7e0d477e3cf0b8c91ef3c93130ea75c
-    SHA512 9ba5a6c7ca8529f8ca9c761fd935ad6772fdd67e40764cb4685ebebd5202d42e53a9fd48c92aa4c3e9e0d08181f0785cdd00d62cd1e9f06170b32c7dd1e62080
+    REF 34acc1fabacd66dc53f94767cf1bcdd999b530df
+    SHA512 5458b1d4451fda7b6cdc7213479397eebe8fc2fbf7b1a6a7a642a095f8fef355d3671cb1b1da265eaf2c229bb2f51c07ba06ce1d51fea124c47adce0aac85e27
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 )
