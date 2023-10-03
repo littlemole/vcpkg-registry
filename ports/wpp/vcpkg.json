@@ -1,0 +1,28 @@
+{
+    "name": "wpp",
+    "version": "0.0.1",
+    "port-version": 0,
+    "homepage": "https://github.com/littlemole/wpp",
+    "description": "web dev for cpp",
+    "dependencies": [
+        "gtest",
+	"expat",
+	"openssl",
+	"nlohmann-json",
+	"jsoncpp",
+	"cryptoneat",
+	"patex",
+	"metacpp",
+	"diycpp",
+	"reprocpp",
+	"mustache",
+	"boost-system", 
+	"boost-asio",
+	{ "name" : "curl", "features" : [ "http2", "schannel" ] },
+	"libmysql",
+	"sqlite3",
+	"zlib",
+	"nghttp2",
+	"libiconv"
+    ]
+}
