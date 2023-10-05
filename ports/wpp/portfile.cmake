@@ -22,7 +22,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL ssh://marilyn.oha7.org/srv/git/wpp
-    REF dc5ee51cd7d9fa7c21bf98367a7206503416b000
+    REF 7f928a360c6ab05b91d0d11afd936cc17a3b168e
     HEAD_REF win32
 )
 
