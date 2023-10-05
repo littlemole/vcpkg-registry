@@ -22,7 +22,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL ssh://marilyn.oha7.org/srv/git/wpp
-    REF ab920f1e31d4680191dd336e3db7f0d2bb0c835b
+    REF dc5ee51cd7d9fa7c21bf98367a7206503416b000
     HEAD_REF win32
 )
 
@@ -41,5 +41,5 @@ vcpkg_install_cmake()
 # Handle copyright
 file(INSTALL ${SOURCE_PATH}/LICENSE DESTINATION ${CURRENT_PACKAGES_DIR}/share/wpp RENAME copyright)
 
-
- file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include)
+# cleanup 
+file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include)
