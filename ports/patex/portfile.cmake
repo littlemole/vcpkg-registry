@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/patex
-    REF 67d074190721e3565da32a69bf705f866724330d
-    SHA512 8cdaa3bbd0eed031eeed726db3297338d4f5db49db2e2a21a9f3241ea98cb523eae2ee7784898985e114e4f59e9f73a609f0fae57981f1cbf9944c9d0bea4530
+    REF 14845ea66268954a0c5d93ce0fad20db283aa4c4
+    SHA512 a3f0ee372715b4db9ec50db2628aab28ec3570cd71dcd677c7215302a97459b919e5a7030d1a01db62daaaf45ea60d90f1fd19fc0c7efbcb91e2bf3cb48cb5c2
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 )
@@ -23,6 +23,7 @@ vcpkg_from_github(
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA # Disable this option if project cannot be built with Ninja
+    OPTIONS -DWITH_TEST=Off
     # OPTIONS -DUSE_THIS_IN_ALL_BUILDS=1 -DUSE_THIS_TOO=2
     # OPTIONS_RELEASE -DOPTIMIZE=1
     # OPTIONS_DEBUG -DDEBUGGABLE=1
