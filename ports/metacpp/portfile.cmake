@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/metacpp
-    REF 543042a571126f599c1ab2c02a64d02b8a94cd88
-    SHA512 d9b78c74f7f67ca5d72bdc673f101eceb25f52fe17ff89a7b5c410f40802274a0ed80b103c9e5d6e8c95b36285d19fc36fe5bf0e05c858b53542173cc77632df
+    REF 60d2b64fb3f27f31b56813c2edb96b7b8c41377b
+    SHA512 52ea4ea9b4240107decdf106e946bf0debb21ff19a447da520887ad166f49455a778435e96a05308af0fc687436d1047571b32be84def05f5cbf2365dd625d07
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 )
@@ -22,6 +22,7 @@ vcpkg_from_github(
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA # Disable this option if project cannot be built with Ninja
+    OPTIONS -DWITH_TEST=Off
     # OPTIONS -DUSE_THIS_IN_ALL_BUILDS=1 -DUSE_THIS_TOO=2
     # OPTIONS_RELEASE -DOPTIMIZE=1
     # OPTIONS_DEBUG -DDEBUGGABLE=1
