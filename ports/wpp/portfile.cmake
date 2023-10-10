@@ -22,7 +22,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL ssh://marilyn.oha7.org/srv/git/wpp
-    REF 7f928a360c6ab05b91d0d11afd936cc17a3b168e
+    REF 0a644ce656321994496f8277a8f5a06abb9a982a
     HEAD_REF win32
 )
 
@@ -30,7 +30,7 @@ vcpkg_from_git(
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA # Disable this option if project cannot be built with Ninja
-    OPTIONS -DWITH_LIBEVENT=Off
+    OPTIONS -DWITH_LIBEVENT=Off -DWITH_TEST=Off
     # OPTIONS -DUSE_THIS_IN_ALL_BUILDS=1 -DUSE_THIS_TOO=2
     # OPTIONS_RELEASE -DOPTIMIZE=1
     # OPTIONS_DEBUG -DDEBUGGABLE=1
