@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/diy
-    REF d743bdf5bbef3c7ff85f08d3df550ac68ac9a78f
-    SHA512 b2d9733ff77cf4d736f22a939c99773bcc16fbb317bb87079764670fb8b68d4f2db9aa0d1f615524d3706304892dab4ef527ea8ad2527deb9ba0a352b2dfa91c
+    REF e3f22f360ec048caed1d61bbfa8b8ed9d54836a0
+    SHA512 17a4a4533d744927395a9b64dfbbe4502fe29327039f68e06b088ca9f7a0b12f1d5c85524fc74532f93c2ad3a77b73fde97b029005acb168cf78af364cb34bcf
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 )
