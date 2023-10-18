@@ -24,5 +24,8 @@
 	"zlib",
 	"nghttp2",
 	"libiconv"
-    ]
+    ],
+    "features": {
+	"libevent": { "description": "with libevent", "dependencies": [] }
+    }
 }
