@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/wpp
-    REF 90bc88fd1623ed39702b9fefc383e85a6b8e575d
-    SHA512 326ef2e05b9d37c83e17859ad92034f8859c87b18d58392c38e7ac40456e01a26b52d9d6767cd315ff66cac3c9ef1e9ea40ffe37c7b8ffbc8d1c5440663d19dc
+    REF fc46bcea12bf05d98357e4f9d538235fd11b093b
+    SHA512 e311d1c4818acb80f0cd6fcfe122f16095d177a9c4fa9f26cf76e95044be6baab02e28b722dc36da0c2114dd9de6a03c43febe07df44ec69868070b8dcf7a204
     HEAD_REF main
    # [PATCHES <patch1.patch> <patch2.patch>...]
 )
