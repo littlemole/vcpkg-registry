@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/cryptoneat
-    REF 477d46a2d12de4698a7a1423d80ff8b49769d28c
-    SHA512 8cff5542e8bf0f7589675307f13758c5cd717e793cd34c117be2dbcc6cc3d5e0edc80579898b1b5963ef3d43379f0d69638c8487e46722af3ef928f99c4399c2
+    REF f686b25bf2bc8e50412bb34da53b56f900865ded
+    SHA512 742eae89b1204bb7efa7098140f9d5ca1ad89592203af0a52009993381b069eacba55efeaa07db5a6bb2cafc15749e49c7ca29cf442296812fcd25d9010bf26e
     HEAD_REF main
     OPT>IONS -DWITH_TEST=Off
 #    [PATCHES <patch1.patch> <patch2.patch>...]
@@ -23,6 +23,7 @@ vcpkg_from_github(
 vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA # Disable this option if project cannot be built with Ninja
+    OPTIONS -DWITH_TEST=Off
     # OPTIONS -DUSE_THIS_IN_ALL_BUILDS=1 -DUSE_THIS_TOO=2
     # OPTIONS_RELEASE -DOPTIMIZE=1
     # OPTIONS_DEBUG -DDEBUGGABLE=1
