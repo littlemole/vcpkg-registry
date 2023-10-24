@@ -16,7 +16,6 @@ vcpkg_from_github(
     REF f686b25bf2bc8e50412bb34da53b56f900865ded
     SHA512 742eae89b1204bb7efa7098140f9d5ca1ad89592203af0a52009993381b069eacba55efeaa07db5a6bb2cafc15749e49c7ca29cf442296812fcd25d9010bf26e
     HEAD_REF main
-    OPTIONS -DWITH_TEST=Off
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 )
 
