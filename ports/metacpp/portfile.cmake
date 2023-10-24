@@ -13,8 +13,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO littlemole/metacpp
-    REF ef5bff82dfffe53bb6e2bcd0f3b0fc37251dab64
-    SHA512 42b7d9f39589e46c980a87624b2c4fe4f444f0d8ec094e6d14d6e50e860cb0427c5ac668a04a86ddc4b9e437414c4c33394ef8b4ca2ecabb93a883923b5b5565
+    REF 6eb82d8dbf9dc8ff741f1b2cb68b9326b8524f1a
+    SHA512 ae619e7bc4773020fc5971f6c7a0d8bb22d726bde10fcd50003f60992f02caf83972f82ff9a83e72587b25745f4d43daf5bde209358b7f8f35965afd520ca11c
     HEAD_REF main
 #    [PATCHES <patch1.patch> <patch2.patch>...]
 )
